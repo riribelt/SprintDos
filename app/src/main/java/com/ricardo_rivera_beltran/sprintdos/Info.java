@@ -26,7 +26,7 @@ public class Info extends AppCompatActivity {
         Intent intentIN = getIntent();
         textNameInfo.setText(intentIN.getStringExtra("name"));
         textDescriptionInfo.setText(intentIN.getStringExtra("description"));
-        textPriceInfo.setText(intentIN.getStringExtra("precio"));
+        textPriceInfo.setText(intentIN.getStringExtra("price"));
 
         btnInfo.setOnClickListener(new View.OnClickListener() {
             @Override
